@@ -7,9 +7,9 @@ import (
 
 func main() {
 	u := models.User{
-		ID: 2,
+		ID:        2,
 		FirstName: "Azarudeen",
-		LastName: "AKB",
+		LastName:  "AKB",
 	}
 	fmt.Println(u)
 }
