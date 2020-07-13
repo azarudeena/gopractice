@@ -16,5 +16,5 @@ func (uc userController) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func newUserController() *userController {
-	return &userController{userIDPattern: regexp.MustCompile("^/users/(d+)/?")}
+	return &userController{userIDPattern: regexp.MustCompile(`^/users/(\d+)/?`)}
 }
