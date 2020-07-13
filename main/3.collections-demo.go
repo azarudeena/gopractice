@@ -1,4 +1,4 @@
-package concepts
+package main
 
 import "fmt"
 
